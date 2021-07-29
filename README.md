@@ -1,8 +1,5 @@
 # nithinv2
 My cod
-filename = 'inspirational_quotes.csv'
-with open(filename, 'w', newline='') as f:
-    w = csv.DictWriter(f,['theme','url','img','lines','author'])
-    w.writeheader()
-    for quote in quotes:
-        w.writerow(quote)
+from math import pi
+radius = float(input ("Input the radius of the circle : "))
+print ("The area of the circle with radius " + str(radius) + " is: " + str(pi * radius**2
